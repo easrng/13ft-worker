@@ -1,0 +1,24 @@
+{
+	"name": "single-file",
+	"version": "0.3.32",
+	"description": "SingleFile",
+	"author": "Gildas Lormeau",
+	"license": "AGPL-3.0-or-later",
+	"main": "cli/single-file-cli-api.js",
+	"bin": {
+		"single-file": "./cli/single-file"
+	},
+	"dependencies": {
+		"file-url": "^3.0.0",
+		"iconv-lite": "^0.6.3",
+		"jsdom": "^18.1.0",
+		"puppeteer-core": "^11.0.0",
+		"selenium-webdriver": "^4.0.0",
+		"strong-data-uri": "^1.0.6",
+		"yargs": "^17.2.1"
+	},
+	"devDependencies": {
+		"rollup": "2.60.0",
+		"rollup-plugin-terser": "7.0.2"
+	}
+}
