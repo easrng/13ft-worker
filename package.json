@@ -1,8 +1,7 @@
 {
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "rm -rf /app/chrome; PUPPETEER_DOWNLOAD_PATH=/tmp/chrome node ./node_modules/puppeteer-core/install.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@acemedia/normalize-url": "^1.0.0",
