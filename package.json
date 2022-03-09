@@ -7,6 +7,7 @@
     "@acemedia/normalize-url": "^1.0.0",
     "express": "^4.17.3",
     "glob": "^7.2.0",
+    "node-fetch": "^3.2.2",
     "single-file": "file:/app/SingleFile",
     "tempy": "^2.0.0"
   }
