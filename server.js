@@ -2,10 +2,10 @@ const tempy = import("tempy"),
   util = require("util"),
   execFile = util.promisify(require("child_process").execFile),
   spawn = util.promisify(require("child_process").spawn),
-  singleFile = require("single-file/cli/single-file-cli-api.js"),
+  singleFile = require("./SingleFile/cli/single-file-cli-api.js"),
   path = require("path"),
   hashUrl = require("./hashurl.js"),
-  fetch = require("node-fetch");
+  fetch = import("node-fetch");
 
 const chrome = "/usr/bin/chromium-browser";
 const exts = "/app/bypass-paywalls-chrome,/app/uBlock0.chromium";
