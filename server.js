@@ -5,7 +5,7 @@ const tempy = import("tempy"),
   singleFile = require("./SingleFile/cli/single-file-cli-api.js"),
   path = require("path"),
   hashUrl = require("./hashurl.js"),
-  fetch = require("node-fetch");
+  fetch = import("node-fetch");
 
 const chrome = "/usr/bin/chromium-browser";
 const exts = "/app/bypass-paywalls-chrome,/app/uBlock0.chromium";
